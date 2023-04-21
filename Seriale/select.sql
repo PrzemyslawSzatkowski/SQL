@@ -1,3 +1,4 @@
+
 SELECT Postać.postać, Kanał.nazwa FROM Postać 
 	JOIN Serial ON Postać.id_serialu=Serial.id_serialu 
 	JOIN Kanał ON Serial.id_kanału=Kanał.id_kanału;
@@ -13,7 +14,7 @@ SELECT Kanał.nazwa FROM Kanał
 	ORDER BY Kanał.rok_powstania
 
 SELECT Kanał.nazwa, AVG(Serial1.ocena) AS 'średnia ocen seriali z wyłączeniem najniższej' FROM Serial Serial1
-	JOIN kanał ON kanał.id_kanału=Serial1.id_kanału 
+	JOIN Kanał ON Kanał.id_kanału=Serial1.id_kanału 
 	WHERE ocena!=
 		(
 		SELECT MIN(Serial2.ocena) FROM Serial Serial2 

@@ -1,5 +1,9 @@
-CREATE DATABASE Seriale;
-USE Seriale;
+
+CREATE DATABASE Seriale
+GO
+
+USE Seriale
+GO
 
 CREATE TABLE Kanał (
 	id_kanału int IDENTITY(1,1) PRIMARY KEY, 

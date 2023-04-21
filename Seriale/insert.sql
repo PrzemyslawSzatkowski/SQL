@@ -1,3 +1,4 @@
+
 INSERT INTO Kanał VALUES 
 	('TVP 1', 1952),
 	('TVP 2', 1970),

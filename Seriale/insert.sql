@@ -4,7 +4,16 @@ INSERT INTO Kanał VALUES
 	('POLSAT', 2000),
 	('TVN', 2002),
 	('TV Puls', 2005),
-	('TV Trwam', 2003);
+	('TV Trwam', 2003),
+	('TVN 24', 2001),
+	('TV 4 HD', 2007),
+	('TVN7 HD', 1998),
+	('Discovery Channel HD', 1990),
+	('TTV HD', 2001),
+	('TLC HD',2002),
+	('AXN HD', 1999),
+	('WP HD', 2009),
+	('History',2010);
 
 INSERT INTO Serial VALUES
 	('M jak Miłość', 2003, NULL, 2, 6),
@@ -13,7 +22,16 @@ INSERT INTO Serial VALUES
 	('Przyjaciółki', 2012, NULL, 3, 8),
 	('Ślad', 2018, NULL, 3, 3),
 	('Na wspólnej', 2009, NULL, 4, 2),
-	('Chyłka', 2020, 2022, 4, 3);
+	('Chyłka', 2020, 2022, 4, 3),
+	('Breaking Bad', 2007, 2012, 12, 10),
+	('Czarnobyl', 2019, 2019, 9, 9),
+	('Gra o tron', 2010, 2019, 15, 8),
+	('Biuro', 2005, NULL, 8, 7),
+	('Kompania braci', 2014, 2018, 7, 6),
+	('Rick i Morty', 2015, NULL, 10, 9),
+	('Sherlock', 2010, 2018, 11, 8),
+	('Peaky Blinders', 2013, NULL, 12, 9),
+	('Klan', 2008, 2019, 13, 6);
 
 INSERT INTO Postać VALUES
 	('Hanka Mostowiak', 'T', 1),
@@ -29,4 +47,15 @@ INSERT INTO Postać VALUES
 	('Cycu', 'N', 3),
 	('Mariolka', 'N', 3),
 	('Kamil Hoffer', 'N', 6),
-	('Marta Konarska', 'T', 6);
+	('Marta Konarska', 'T', 6),
+	('Walter White', 'T', 8),
+	('Hank', 'T', 8),
+	('Jesse', 'N', 8),
+	('Vladimir', 'T', 9),
+	('Arnold', 'N', 10),
+	('Gen. Wilson', 'T', 12),
+	('Rick', 'N', 13),
+	('Morty', 'N', 13),
+	('Sherlock Holmes', 'T', 14),
+	('Tommy Shelby', 'N', 15),
+	('Ryszard', 'T', 16);
